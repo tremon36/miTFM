@@ -86,26 +86,26 @@ weighted_sum_predictions = predictions[:, 0] * inputs[:, 0] + predictions[:, 1] 
 fig, axs = plt.subplots(3, 2, figsize=(15, 20))  # Creates 6 subplots in a 3x2 grid
 
 # Column 1
-axs[0, 0].plot(s_hdr, label='HDR Channel', color='blue')
-axs[0, 0].set_title('HDR Channel')
-axs[0, 0].set_ylabel('Signal Amplitude')
-axs[0, 0].legend()
-
-axs[1, 0].plot(s_hsnr, label='HSNR Channel', color='purple')
-axs[1, 0].set_title('HSNR Channel')
+axs[1, 0].plot(s_hdr, label='HDR Channel', color='blue')
+axs[1, 0].set_title('HDR Channel')
 axs[1, 0].set_ylabel('Signal Amplitude')
 axs[1, 0].legend()
 
-# Column 2
-axs[0, 1].plot(clear_signal, label='Clear Signal', linewidth=2)
-axs[0, 1].set_title('Clear Signal')
-axs[0, 1].set_ylabel('Signal Amplitude')
-axs[0, 1].legend()
-
-axs[1, 1].plot(weighted_sum_predictions, label='Predicted Signal', color='orange')
-axs[1, 1].set_title('Predicted Signal')
+axs[1, 1].plot(s_hsnr, label='HSNR Channel', color='purple')
+axs[1, 1].set_title('HSNR Channel')
 axs[1, 1].set_ylabel('Signal Amplitude')
 axs[1, 1].legend()
+
+# Column 2
+axs[0, 0].plot(clear_signal, label='Clear Signal', linewidth=2)
+axs[0, 0].set_title('Clear Signal')
+axs[0, 0].set_ylabel('Signal Amplitude')
+axs[0, 0].legend()
+
+axs[0, 1].plot(weighted_sum_predictions, label='Predicted Signal', color='orange')
+axs[0, 1].set_title('Predicted Signal')
+axs[0, 1].set_ylabel('Signal Amplitude')
+axs[0, 1].legend()
 
 axs[2, 0].plot(predictions[:, 0], label='Weight Out1', linestyle='-', color='r')
 axs[2, 0].set_title('Weight HDR')
