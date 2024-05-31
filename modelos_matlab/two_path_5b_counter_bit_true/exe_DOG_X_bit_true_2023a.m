@@ -42,7 +42,7 @@ T2=1/f2;
 Vfs=1;
 Vdc=Vfs;
 g1=g1_ideal*1;
-Input_signal_dB=-18
+Input_signal_dB=-0.5;
 ;   % Input signal
 lvl = Vfs*10^(Input_signal_dB/20);
 pnoi=10^(-(60)/10)*(Vfs^2/2);
@@ -63,7 +63,7 @@ figure(1)
 clf
 semilogx(f,20*log10(abs(ey)));
 hold
-semilogx(f,20*log10(abs(ey1)),'g');
+%semilogx(f,20*log10(abs(ey1)),'g');
 %semilogx(f,20*log10(abs(ey2)),'r');
 grid
 
