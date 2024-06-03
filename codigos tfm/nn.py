@@ -64,7 +64,7 @@ model.fit(inputs, outputs, epochs=10, batch_size=32)
 
 # model test with sine wave:
 
-time = np.arange(32000) * 0.01
+time = np.arange(7000) * 0.01
 clear_signal = sg.generate_modulated_sine(time)
 s_hdr = sg.add_noise(clear_signal, 0.0001)
 s_hsnr = sg.add_noise(clear_signal,0.00001)
@@ -89,33 +89,34 @@ fig, axs = plt.subplots(3, 2, figsize=(15, 20))  # Creates 6 subplots in a 3x2 g
 axs[1, 0].plot(s_hdr, label='HDR Channel', color='blue')
 axs[1, 0].set_title('HDR Channel')
 axs[1, 0].set_ylabel('Signal Amplitude')
-axs[1, 0].legend()
+#axs[1, 0].legend()
 
 axs[1, 1].plot(s_hsnr, label='HSNR Channel', color='purple')
 axs[1, 1].set_title('HSNR Channel')
 axs[1, 1].set_ylabel('Signal Amplitude')
-axs[1, 1].legend()
+axs[1, 1].set_ylim([-1,1])
+#axs[1, 1].legend()
 
 # Column 2
 axs[0, 0].plot(clear_signal, label='Clear Signal', linewidth=2)
 axs[0, 0].set_title('Clear Signal')
 axs[0, 0].set_ylabel('Signal Amplitude')
-axs[0, 0].legend()
+#axs[0, 0].legend()
 
 axs[0, 1].plot(weighted_sum_predictions, label='Predicted Signal', color='orange')
 axs[0, 1].set_title('Predicted Signal')
 axs[0, 1].set_ylabel('Signal Amplitude')
-axs[0, 1].legend()
+#axs[0, 1].legend()
 
 axs[2, 0].plot(predictions[:, 0], label='Weight Out1', linestyle='-', color='r')
 axs[2, 0].set_title('Weight HDR')
 axs[2, 0].set_ylabel('Signal Amplitude')
-axs[2, 0].legend()
+#axs[2, 0].legend()
 
 axs[2, 1].plot(predictions[:, 1], label='Weight Out2', linestyle='-', color='g')
 axs[2, 1].set_title('Weight HSNR')
 axs[2, 1].set_ylabel('Signal Amplitude')
-axs[2, 1].legend()
+#axs[2, 1].legend()
 
 # Adjust spacing between subplots to prevent title overlap and to better layout the axes labels
 fig.subplots_adjust(hspace=0.5, wspace=0.3)  # Adjust horizontal and vertical spacing
