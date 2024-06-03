@@ -42,7 +42,7 @@ T2=1/f2;
 Vfs=1;
 Vdc=Vfs;
 g1=g1_ideal*1;
-Input_signal_dB=-0.5;
+Input_signal_dB=-12.3;
 ;   % Input signal
 lvl = Vfs*10^(Input_signal_dB/20);
 pnoi=10^(-(60)/10)*(Vfs^2/2);
