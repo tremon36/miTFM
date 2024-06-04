@@ -1,0 +1,65 @@
+// VerilogA for wk_carrerobardon, t_va_abs_value, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module t_va_abs_value(out_val[8:0]);
+
+output [8:0] out_val;
+electrical [8:0] out_val;
+
+parameter real period = 10.0;
+parameter integer initial_value [8:0] = {1,1,1,0,0,0,0,0,0};
+
+parameter real vlogic_high = 1.0;
+parameter real vlogic_low = 0;
+parameter real vtrans = 0.6;
+parameter real tdel = 1e-12;
+parameter real tfall = 50e-12;
+parameter real trise = 50e-12; 
+
+genvar k;
+genvar l;
+integer i = 0;
+integer j = 0;
+integer h = 0;
+integer t;
+
+integer out_val_state [8:0];
+
+
+analog begin
+
+@(initial_step) begin
+	i = 0;
+	for(k = 0; k < 9; k = k + 1) begin
+		out_val_state[i] = initial_value[i];
+	i = i + 1;
+	end
+end
+
+@(timer(0,period)) begin
+ 	out_val_state[0] = !out_val_state[0];
+	i = 1;
+	for(k = 1; k < 9; k = k + 1) begin
+		for(l = 0; l < k; l = l + 1) begin
+			if(out_val_state[j] == 1) begin
+				h = 1;
+			end
+			j = j + 1;
+		end
+		if(h == 0) begin
+			out_val_state[i] = !out_val_state[i];
+		end
+		h = 0;
+		j = 0;
+		i = i + 1;
+	end 
+end
+
+generate t (0, 8, 1 ) V(out_val[t]) <+ transition(out_val_state[t]*vlogic_high, tdel, trise, tfall);
+
+end
+
+
+endmodule

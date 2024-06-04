@@ -1,0 +1,60 @@
+// VerilogA for wk_carrerobardon, va_signals_from_file, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+`define DATA_WIDTH 9
+
+module va_signals_from_file_clocked_9b(clk,data[`DATA_WIDTH-1:0]);
+
+output [`DATA_WIDTH-1:0] data;
+electrical [`DATA_WIDTH-1:0] data;
+
+input clk;
+electrical clk;
+
+parameter real clk_threshold = 0.6;
+parameter integer clk_edge = 1 from [-1:1];
+parameter integer using_file_with_delays = 0;
+
+parameter string file_path = "input_signal.txt";
+
+parameter real vlogic_high = 1.2;
+parameter real vlogic_low = 0;
+parameter real vtrans = 0.6;
+parameter real tdel = 1e-12;
+parameter real tfall = 50e-12;
+parameter real trise = 50e-12; 
+
+integer file_descriptor;
+genvar k;
+integer j;
+integer i = 0;
+integer current_read [`DATA_WIDTH-1:0];
+real trash = 0.0;
+
+analog begin
+
+@(initial_step) begin
+	file_descriptor = $fopen(file_path, "r" );
+end
+
+@(cross(V(clk) - clk_threshold, clk_edge)) begin
+	i = 0;
+	for(k = 0; k < `DATA_WIDTH; k = k + 1) begin
+		 $fscanf(file_descriptor,"%d",current_read[`DATA_WIDTH-1-i]);
+		i = i + 1;
+	end
+
+	if(using_file_with_delays == 1) begin
+	$fscanf(file_descriptor,"%e",trash);
+	end
+
+end
+
+generate i (0, `DATA_WIDTH-1, 1 ) V(data[i]) <+ transition(current_read[i]*vlogic_high, tdel, trise, tfall);
+
+end
+
+endmodule
+
