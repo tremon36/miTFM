@@ -30,7 +30,7 @@ Input_signal = 10^(Input_signal_dB/20);
 Nbvco=4 % Number of bits VCO counter
 Nvco=2^Nbvco;
 NP=Nvco;
-Nbext=6; %Number of bits of extra counter
+Nbext=5; %Number of bits of extra counter
 NbC1=Nbvco+Nbext % Number of bits of first counter C1
 NC1=2^NbC1;
 NbDiff1 = NbC1; %number of bits of differential canceling diff output
@@ -38,7 +38,7 @@ NbDiff2 = NbC1; %number of bits of feedback loop difference
 
 Nbsd=Nbvco+Nbext % Number of bits of SD quantizer
 Nsd=2^Nbsd;
-Nbdcoext=3; % Number of bits of DCO ALU
+Nbdcoext=4; % Number of bits of DCO ALU
 Nbdco=Nbsd+Nbdcoext % Number of bits DCO counter
 Ndco=2^Nbdco;
 
