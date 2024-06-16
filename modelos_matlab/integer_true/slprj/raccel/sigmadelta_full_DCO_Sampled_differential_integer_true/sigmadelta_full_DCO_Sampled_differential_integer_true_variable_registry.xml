@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_parameter_tuning/R2021b">
+  <slsa.mm.parametertuning.VariableRegistry type="slsa.mm.parametertuning.VariableRegistry" uuid="08bd099e-b69c-4ef5-a34d-8a0d2534fe5f">
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a1bc617d-5eaf-4ae1-8ecb-d1118f72fc6e">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant14</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="bc22ca5a-82fe-40c8-a4d9-c0658ad93f54"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="281ea64b-8788-44aa-9c89-aa83ecc99bb9">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="19cda001-a8f1-45f4-b322-950c3c891d6d">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant13</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="736f8f28-0cfd-4eab-b6bb-5947d4bef762"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="8cfe1288-f86f-47a5-b24c-04d5361c6bee">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e9a7fbc2-6d72-4ca4-a666-ad15522cc532">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter2/Sample and Hold/ </blockPath>
+      <parameterName>InitialOutput</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="72b7ac80-6e26-48ef-9522-0d17ec4de8db"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="cf835d25-6fb0-48d5-b935-96729023a72b">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="29acf89b-e274-4e63-9649-631b913de3e3">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="736f8f28-0cfd-4eab-b6bb-5947d4bef762"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="2b664247-024e-4557-8193-0a7b109eca1c">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="14a5cac3-a146-46bc-89b4-3cfa68f9c63e">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter2/Constant1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b20670d-1484-468a-9384-c23622355054"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="1d981df0-0fb5-42c5-8461-bb5691f5376d">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4417889b-9523-46bc-bb3f-de62daa43eeb">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant2</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="736f8f28-0cfd-4eab-b6bb-5947d4bef762"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="195cbed3-6161-4b8d-a1ea-021fbfa53480">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b2f8db0c-bad1-473d-af87-81ba42a79e6a">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter1/Constant1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b20670d-1484-468a-9384-c23622355054"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="416ff743-2b73-41e2-979b-6fc6bb66a5dc">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9846dfd7-062d-4f7e-bf37-f904df9e9a06">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter3/Constant1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b20670d-1484-468a-9384-c23622355054"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="d954063f-a824-4132-baa2-df692ce98c95">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="776db401-9df3-45ba-a616-2e3a4dbc4a93">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter4/Constant1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b20670d-1484-468a-9384-c23622355054"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="7e209c08-da2f-4dd1-809d-55cb259bd8f3">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8d06f91e-e0af-4aec-baa0-e4079725a10e">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/To Workspace3</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8d2a1fc9-34dc-434d-a2fe-61b144f93825">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Gain3</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="03c83db2-4469-4179-9443-5c3f885d7211"/>
+      <valueAttributes type="slsa.mm.parametertuning.FixedPointValueAttributes" uuid="dedda35b-a8cf-4823-ada6-bac61d316470">
+        <fractionLength>13</fractionLength>
+        <signed>true</signed>
+        <wordLength>12</wordLength>
+        <className>embedded.fi</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c97e2f6d-c252-49c1-9e96-8c870e9f3d60">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Gain9</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="03c83db2-4469-4179-9443-5c3f885d7211"/>
+      <valueAttributes type="slsa.mm.parametertuning.FixedPointValueAttributes" uuid="2af5ec88-7a0e-4ba6-955a-152262db8387">
+        <fractionLength>13</fractionLength>
+        <signed>true</signed>
+        <wordLength>12</wordLength>
+        <className>embedded.fi</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ba3fc33a-43df-44e2-b45b-9515af37de19">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/To Workspace4</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fa08ee2d-305b-4dfa-8d87-3a46107402e8">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter4/Sample and Hold/ </blockPath>
+      <parameterName>InitialOutput</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="0e757bd7-4ebd-4623-8cb0-1ba980a64ac6"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="eef007a4-3e3c-4eac-bbfe-9422e983b6b1">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6097900c-bcbf-48d8-a739-1be45c353784">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter3/Sample and Hold/ </blockPath>
+      <parameterName>InitialOutput</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="620fc2a7-91a0-4d16-8981-ff0cdd0cfe7e"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="49fb402f-bdd9-4ebc-9a4a-e41dafbb96dc">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="781ab6bc-fe9a-4589-8cd3-6b41eda651a8">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter1/Sample and Hold/ </blockPath>
+      <parameterName>InitialOutput</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="fb4369b9-b513-4cce-8f18-aef3027f550e"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="2ba37e62-0fab-493d-b9a9-1b74fabe388a">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a7b4bd68-3e84-4edf-ab66-c4eb1d23d5e6">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/DCO1/Delay2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="332738a8-bf1e-4b97-8d70-c2cd970d769b">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/DCO1/Zero-Order Hold1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8e615404-26d7-4089-8e66-bf30867f9796">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Delay7</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8e7ad8d8-89a4-4dd9-8e6f-fdc69609c799">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/DCO2/Delay2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="71442bcc-4a21-4375-b9a5-7437137b899e">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Delay1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fcbd915a-0d03-4973-ac5e-93f860fd21ac">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Delay2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="87a738b5-fc29-4965-8351-afd6a4ef9bbd">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Delay4</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2c05c49d-69d5-4a8d-87cc-1ac9cfb40796">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/To Workspace1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4a27a8e3-6c21-492f-904f-df69db87f1dc">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/To Workspace2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1dc6f01c-e70f-4bff-bef8-bdfeac01350f">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Zero-Order Hold1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="52cae1db-dd00-492d-bed5-78e7edfe48dc">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Zero-Order Hold2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2ed7992f-c303-4b78-b042-383bbd465b3f">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Zero-Order Hold3</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="dbf51d8c-6e6d-49d4-9c21-1fea07e14994">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Zero-Order Hold6</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="51d9121c-6601-4037-8876-7f66e681938c">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Zero-Order Hold7</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3f3f5203-f632-4a5b-b649-98709a31b5cc">
+      <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Zero-Order Hold8</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <defaultValueCachePath>C:\miTFM\modelos_matlab\integer_true\slprj\raccel\sigmadelta_full_DCO_Sampled_differential_integer_true\sigmadelta_full_DCO_Sampled_differential_integer_true_default_variable_values.mat</defaultValueCachePath>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="03c83db2-4469-4179-9443-5c3f885d7211">
+      <expression>1/2^(Nbdcoext)</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8d2a1fc9-34dc-434d-a2fe-61b144f93825"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c97e2f6d-c252-49c1-9e96-8c870e9f3d60"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="f583caab-85cf-43ee-a5c5-dab2d0527950"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6b20670d-1484-468a-9384-c23622355054">
+      <expression>2^(NbC1)</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b2f8db0c-bad1-473d-af87-81ba42a79e6a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="14a5cac3-a146-46bc-89b4-3cfa68f9c63e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9846dfd7-062d-4f7e-bf37-f904df9e9a06"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="776db401-9df3-45ba-a616-2e3a4dbc4a93"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="734d02e3-babd-42d4-9126-7415dc25470c"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="736f8f28-0cfd-4eab-b6bb-5947d4bef762">
+      <expression>-(2^(NbC1-1))</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="19cda001-a8f1-45f4-b322-950c3c891d6d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="29acf89b-e274-4e63-9649-631b913de3e3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4417889b-9523-46bc-bb3f-de62daa43eeb"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="734d02e3-babd-42d4-9126-7415dc25470c"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="bc22ca5a-82fe-40c8-a4d9-c0658ad93f54">
+      <expression>-(2^(NbC1))</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a1bc617d-5eaf-4ae1-8ecb-d1118f72fc6e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="734d02e3-babd-42d4-9126-7415dc25470c"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="b5542ce9-daa2-4f4c-aa32-7d71f7ee87d8">
+      <expression>0</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="3979d7d3-0821-406a-be37-f4eeeb2ba943"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="e1888311-5feb-402c-97b5-6140b555ca7b"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="6c4b11c8-44d8-41b9-93ea-e6caabd44f1a"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="f4f48d8d-d52a-4dcb-b45a-36d242021571"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="0e757bd7-4ebd-4623-8cb0-1ba980a64ac6">
+      <expression>initCond</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fa08ee2d-305b-4dfa-8d87-3a46107402e8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7dd93a67-da3c-4a9f-8590-8d8e2a3c543d"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="72b7ac80-6e26-48ef-9522-0d17ec4de8db">
+      <expression>initCond</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e9a7fbc2-6d72-4ca4-a666-ad15522cc532"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="a3e64de2-2fa3-4ba7-9d87-854afca01e0b"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="620fc2a7-91a0-4d16-8981-ff0cdd0cfe7e">
+      <expression>initCond</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6097900c-bcbf-48d8-a739-1be45c353784"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7c410ce5-855e-46e6-8339-6c4c105b4e4b"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="fb4369b9-b513-4cce-8f18-aef3027f550e">
+      <expression>initCond</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="781ab6bc-fe9a-4589-8cd3-6b41eda651a8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="42c005e3-7fb3-465a-b678-a1df22360cd8"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef">
+      <expression>T2</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a7b4bd68-3e84-4edf-ab66-c4eb1d23d5e6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="dbf51d8c-6e6d-49d4-9c21-1fea07e14994"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="332738a8-bf1e-4b97-8d70-c2cd970d769b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8e7ad8d8-89a4-4dd9-8e6f-fdc69609c799"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8e615404-26d7-4089-8e66-bf30867f9796"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fcbd915a-0d03-4973-ac5e-93f860fd21ac"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1dc6f01c-e70f-4bff-bef8-bdfeac01350f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="52cae1db-dd00-492d-bed5-78e7edfe48dc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="51d9121c-6601-4037-8876-7f66e681938c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c478f6ce-30c9-4103-b91d-86fbf0dd6008"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4">
+      <expression>Ts</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="71442bcc-4a21-4375-b9a5-7437137b899e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3f3f5203-f632-4a5b-b649-98709a31b5cc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="87a738b5-fc29-4965-8351-afd6a4ef9bbd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2c05c49d-69d5-4a8d-87cc-1ac9cfb40796"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ba3fc33a-43df-44e2-b45b-9515af37de19"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4a27a8e3-6c21-492f-904f-df69db87f1dc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8d06f91e-e0af-4aec-baa0-e4079725a10e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2ed7992f-c303-4b78-b042-383bbd465b3f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6e23fb42-1e49-4d26-9e13-fb9aad9b4ec8"/>
+    </expressions>
+    <name>sigmadelta_full_DCO_Sampled_differential_integer_true</name>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="3979d7d3-0821-406a-be37-f4eeeb2ba943">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="42c005e3-7fb3-465a-b678-a1df22360cd8"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b5542ce9-daa2-4f4c-aa32-7d71f7ee87d8"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="e1888311-5feb-402c-97b5-6140b555ca7b">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="7dd93a67-da3c-4a9f-8590-8d8e2a3c543d"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b5542ce9-daa2-4f4c-aa32-7d71f7ee87d8"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="6c4b11c8-44d8-41b9-93ea-e6caabd44f1a">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="a3e64de2-2fa3-4ba7-9d87-854afca01e0b"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b5542ce9-daa2-4f4c-aa32-7d71f7ee87d8"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="f4f48d8d-d52a-4dcb-b45a-36d242021571">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="7c410ce5-855e-46e6-8339-6c4c105b4e4b"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b5542ce9-daa2-4f4c-aa32-7d71f7ee87d8"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d61be4ec-be74-4cb9-a5ca-4dc86cfc8421">
+      <name>Input_signal</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="68960490-1e9a-4520-960e-d3ae108e18bc">
+      <name>Kvco</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="ba7f020a-ae7e-4327-b8f3-f735ae2c5a20">
+      <name>ft</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="32103924-9341-4fe8-a032-2bb80c335d99">
+      <name>f02</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="ea9272b4-34a4-475a-a909-c780a567b8a4">
+      <name>f0</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="734d02e3-babd-42d4-9126-7415dc25470c">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="bc22ca5a-82fe-40c8-a4d9-c0658ad93f54"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6b20670d-1484-468a-9384-c23622355054"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="736f8f28-0cfd-4eab-b6bb-5947d4bef762"/>
+      <name>NbC1</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="7dd93a67-da3c-4a9f-8590-8d8e2a3c543d">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="e1888311-5feb-402c-97b5-6140b555ca7b"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="0e757bd7-4ebd-4623-8cb0-1ba980a64ac6"/>
+      <name>initCond</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="45b27940-d137-4980-9025-cf7e2dcde4da"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="f583caab-85cf-43ee-a5c5-dab2d0527950">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="03c83db2-4469-4179-9443-5c3f885d7211"/>
+      <name>Nbdcoext</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="7c410ce5-855e-46e6-8339-6c4c105b4e4b">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="f4f48d8d-d52a-4dcb-b45a-36d242021571"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="620fc2a7-91a0-4d16-8981-ff0cdd0cfe7e"/>
+      <name>initCond</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="bdad4a33-03af-4fd3-8236-769345f001da"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="a3e64de2-2fa3-4ba7-9d87-854afca01e0b">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="6c4b11c8-44d8-41b9-93ea-e6caabd44f1a"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="72b7ac80-6e26-48ef-9522-0d17ec4de8db"/>
+      <name>initCond</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="bfccd1ee-56db-41e3-a918-8600f96e0057"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="42c005e3-7fb3-465a-b678-a1df22360cd8">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="3979d7d3-0821-406a-be37-f4eeeb2ba943"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="fb4369b9-b513-4cce-8f18-aef3027f550e"/>
+      <name>initCond</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="473b1ac8-8fc8-4740-9953-c737530cdb54"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c478f6ce-30c9-4103-b91d-86fbf0dd6008">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="37b21147-718b-4c5d-ba5f-1286f5aceaef"/>
+      <name>T2</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="6e23fb42-1e49-4d26-9e13-fb9aad9b4ec8">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="21a5bb3e-0d05-4fb6-8b3f-264a880353b4"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd"/>
+    </variables>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="bdad4a33-03af-4fd3-8236-769345f001da">
+      <name>sigmadelta_full_DCO_Sampled_differential_integer_true:17046</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7c410ce5-855e-46e6-8339-6c4c105b4e4b"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="45b27940-d137-4980-9025-cf7e2dcde4da">
+      <name>sigmadelta_full_DCO_Sampled_differential_integer_true:17055</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7dd93a67-da3c-4a9f-8590-8d8e2a3c543d"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="0debfdf8-5dfd-4c14-ae9d-969a5f0329fd">
+      <name>global-workspace</name>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d61be4ec-be74-4cb9-a5ca-4dc86cfc8421"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="68960490-1e9a-4520-960e-d3ae108e18bc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="ba7f020a-ae7e-4327-b8f3-f735ae2c5a20"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="32103924-9341-4fe8-a032-2bb80c335d99"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="ea9272b4-34a4-475a-a909-c780a567b8a4"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="734d02e3-babd-42d4-9126-7415dc25470c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="f583caab-85cf-43ee-a5c5-dab2d0527950"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c478f6ce-30c9-4103-b91d-86fbf0dd6008"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6e23fb42-1e49-4d26-9e13-fb9aad9b4ec8"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="473b1ac8-8fc8-4740-9953-c737530cdb54">
+      <name>sigmadelta_full_DCO_Sampled_differential_integer_true:17483</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="42c005e3-7fb3-465a-b678-a1df22360cd8"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="bfccd1ee-56db-41e3-a918-8600f96e0057">
+      <name>sigmadelta_full_DCO_Sampled_differential_integer_true:17492</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="a3e64de2-2fa3-4ba7-9d87-854afca01e0b"/>
+    </workspaces>
+  </slsa.mm.parametertuning.VariableRegistry>
+</MF0>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="219fa189-7761-4c2a-9aea-73492e3d0ecf">
+    <modelName>sigmadelta_full_DCO_Sampled_differential_integer_true</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="48a120fc-9fb3-4e53-932d-f12325e1c242">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="0cd765ab-b413-4347-bd62-f9b163d1cab0"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="aa355b5d-3c17-4f9d-ba2e-5eabf93e1fc2"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="48cdd8f8-362c-4e80-b9d7-34e57e658511">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="bf021c3b-fbeb-4a4e-8e44-17caa9da680a"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="0cd765ab-b413-4347-bd62-f9b163d1cab0">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Input_signal</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="48a120fc-9fb3-4e53-932d-f12325e1c242"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="4a0f2e65-3aa2-4499-8340-593cb27184c6">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="de21a85f-b045-4b6b-8079-e3173886bbf1"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="3b5fea31-6b50-4094-a390-a8ed7d59b289"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="cad19bd5-580d-4793-b022-28021115c546">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="5f544521-ce92-4e93-9ca1-f4d82f78bd27"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="38000e45-bec1-4cd7-9c65-efda81e10a86"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="6a2b2e7f-8a3a-460c-afbf-f0aea95f448b">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Gain9</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.FixedPointParameter" uuid="8d1fbccc-b59e-4028-8dd5-62d92a53c214"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="aa0e9304-1d38-4270-8c0c-7110b3da2c08">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="95c36cb3-7131-4da1-b112-f1aa09a8b56d"/>
+    <valueIndices>135</valueIndices>
+    <valueIndices>135</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="aa355b5d-3c17-4f9d-ba2e-5eabf93e1fc2">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="48a120fc-9fb3-4e53-932d-f12325e1c242"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="bf021c3b-fbeb-4a4e-8e44-17caa9da680a">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="c30fa8df-8ddc-457e-918f-7b28ac42023b"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="48cdd8f8-362c-4e80-b9d7-34e57e658511"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="c30fa8df-8ddc-457e-918f-7b28ac42023b">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kvco</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="bf021c3b-fbeb-4a4e-8e44-17caa9da680a"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="9fe1ea4a-663f-4f4f-b7dc-25e107e90ba1">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="0d39a9a3-dbbb-4721-83a4-36371c34dc7b"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="7d68224c-1da7-44c5-8105-522367079c72"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="5f544521-ce92-4e93-9ca1-f4d82f78bd27">
+    <workspaceName>global-workspace</workspaceName>
+    <name>f0</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="cad19bd5-580d-4793-b022-28021115c546"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="38000e45-bec1-4cd7-9c65-efda81e10a86">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="cad19bd5-580d-4793-b022-28021115c546"/>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="de21a85f-b045-4b6b-8079-e3173886bbf1">
+    <workspaceName>global-workspace</workspaceName>
+    <name>f02</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="4a0f2e65-3aa2-4499-8340-593cb27184c6"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="3b5fea31-6b50-4094-a390-a8ed7d59b289">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="4a0f2e65-3aa2-4499-8340-593cb27184c6"/>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="241ecbb0-0e61-4654-a5ae-842a4b3062b1">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="01862280-b428-4a75-825a-02ef853e6cab"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6d988262-ac39-4410-bf67-8151b177a354"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="4150e1ce-e4cb-4488-8a1d-e07ec6fa10ee">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter4/Sample and Hold/ </blockPath>
+    <name>InitialOutput</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d5996fa3-283f-456a-bfc7-5a8354295afe"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="01862280-b428-4a75-825a-02ef853e6cab">
+    <workspaceName>global-workspace</workspaceName>
+    <name>ft</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="241ecbb0-0e61-4654-a5ae-842a4b3062b1"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="adbc3ce3-3870-4a91-8a70-53ca941ace1b">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="afb53560-de9a-4d03-82e2-42cbbf942c92"/>
+    <valueIndices>142</valueIndices>
+    <valueIndices>142</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6d988262-ac39-4410-bf67-8151b177a354">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="241ecbb0-0e61-4654-a5ae-842a4b3062b1"/>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="d5996fa3-283f-456a-bfc7-5a8354295afe">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="4150e1ce-e4cb-4488-8a1d-e07ec6fa10ee"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="1203a2ac-5a7a-4618-99ae-56ca5e66ef9d"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="95c36cb3-7131-4da1-b112-f1aa09a8b56d">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="3132201f-8922-4807-bb90-c85098d02ab4"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="aa0e9304-1d38-4270-8c0c-7110b3da2c08"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="31130096-6100-4572-b37b-35547563685e">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="fa7e3f97-ac92-4377-a429-3d082f4bc3ef"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="675ace12-d2c1-44d0-81da-297dace72562"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="3132201f-8922-4807-bb90-c85098d02ab4">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="95c36cb3-7131-4da1-b112-f1aa09a8b56d"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="3db4c9f7-76c3-4f09-9f2e-8ce4859d3692">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant14</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="afb53560-de9a-4d03-82e2-42cbbf942c92"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="7d68224c-1da7-44c5-8105-522367079c72">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="9fe1ea4a-663f-4f4f-b7dc-25e107e90ba1"/>
+    <valueIndices>139</valueIndices>
+    <valueIndices>139</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="fdca2436-39f7-4d0d-8555-1551eda04fe9">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="c70c041b-1d01-4c1a-873b-acd03c4e73d9"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="044ff4fa-bb7e-4581-9bb0-272070cabf6c"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="c7d9a023-db45-463a-95fc-2d7be0115d96">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b42ef9e9-f8e0-413a-9d2b-c86a9704ee66"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="c70c041b-1d01-4c1a-873b-acd03c4e73d9">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant2</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="fdca2436-39f7-4d0d-8555-1551eda04fe9"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="449b385e-93f8-4814-a267-af5c3a08afa8">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d04c79bb-e30c-4310-b5f4-a2c15382de2d"/>
+    <valueIndices>145</valueIndices>
+    <valueIndices>145</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="044ff4fa-bb7e-4581-9bb0-272070cabf6c">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="fdca2436-39f7-4d0d-8555-1551eda04fe9"/>
+    <valueIndices>136</valueIndices>
+    <valueIndices>136</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="06ec7035-9a3d-4db0-954b-57f6eb534ce7">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="f3220eee-b231-41bc-9e77-7b4e82437c67"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="8d835087-978d-4548-8fc6-23722ccf9bba"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="c6b99717-6c0d-489d-b7e2-eb1c74a95b2e">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="82da3c11-44af-4998-8d1e-99ed35f148e5"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="921014eb-7404-46ba-b129-a727583de60e"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="822cc098-07bb-4213-9a79-913fe51f96c7">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="e8807689-1c54-4ce9-a222-5c9f61e60953"/>
+    <segmentIndex>4</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="82da3c11-44af-4998-8d1e-99ed35f148e5">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter1/Constant1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="c6b99717-6c0d-489d-b7e2-eb1c74a95b2e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="1203a2ac-5a7a-4618-99ae-56ca5e66ef9d">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d5996fa3-283f-456a-bfc7-5a8354295afe"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="921014eb-7404-46ba-b129-a727583de60e">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="c6b99717-6c0d-489d-b7e2-eb1c74a95b2e"/>
+    <valueIndices>137</valueIndices>
+    <valueIndices>137</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.FixedPointParameter type="slsa.mm.rtpregistry.FixedPointParameter" uuid="8d1fbccc-b59e-4028-8dd5-62d92a53c214">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="6a2b2e7f-8a3a-460c-afbf-f0aea95f448b"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="33653c5f-bc7e-4bfd-add3-b4ed81b08264"/>
+  </slsa.mm.rtpregistry.FixedPointParameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="8d835087-978d-4548-8fc6-23722ccf9bba">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="06ec7035-9a3d-4db0-954b-57f6eb534ce7"/>
+    <valueIndices>143</valueIndices>
+    <valueIndices>143</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="0d39a9a3-dbbb-4721-83a4-36371c34dc7b">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter2/Constant1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="9fe1ea4a-663f-4f4f-b7dc-25e107e90ba1"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="fa7e3f97-ac92-4377-a429-3d082f4bc3ef">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Constant13</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="31130096-6100-4572-b37b-35547563685e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="675ace12-d2c1-44d0-81da-297dace72562">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="31130096-6100-4572-b37b-35547563685e"/>
+    <valueIndices>141</valueIndices>
+    <valueIndices>141</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="afb53560-de9a-4d03-82e2-42cbbf942c92">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="3db4c9f7-76c3-4f09-9f2e-8ce4859d3692"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="adbc3ce3-3870-4a91-8a70-53ca941ace1b"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="33653c5f-bc7e-4bfd-add3-b4ed81b08264">
+    <parameter type="slsa.mm.rtpregistry.FixedPointParameter" uuid="8d1fbccc-b59e-4028-8dd5-62d92a53c214"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="7339ce5d-d05f-4366-87a7-3011322b0f3f">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/Gain3</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.FixedPointParameter" uuid="1196ae37-c988-4d03-9157-cfb88087f2b1"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="f3220eee-b231-41bc-9e77-7b4e82437c67">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter3/Constant1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="06ec7035-9a3d-4db0-954b-57f6eb534ce7"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="100513f1-6e75-44f9-96f2-5266051c537e">
+    <parameter type="slsa.mm.rtpregistry.FixedPointParameter" uuid="1196ae37-c988-4d03-9157-cfb88087f2b1"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="d04c79bb-e30c-4310-b5f4-a2c15382de2d">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="4f179749-434b-4ccb-824f-20f1470e90c6"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="449b385e-93f8-4814-a267-af5c3a08afa8"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="4f179749-434b-4ccb-824f-20f1470e90c6">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter4/Constant1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d04c79bb-e30c-4310-b5f4-a2c15382de2d"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.FixedPointParameter type="slsa.mm.rtpregistry.FixedPointParameter" uuid="1196ae37-c988-4d03-9157-cfb88087f2b1">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="7339ce5d-d05f-4366-87a7-3011322b0f3f"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="100513f1-6e75-44f9-96f2-5266051c537e"/>
+  </slsa.mm.rtpregistry.FixedPointParameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="d8e4c160-1569-4b85-b63e-5d2fcfb29a42">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="ecd1b24a-45e3-4166-a581-36816ac25640"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="28a2fc5c-6d68-4274-840c-e6e86b5739d6"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="ecd1b24a-45e3-4166-a581-36816ac25640">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter3/Sample and Hold/ </blockPath>
+    <name>InitialOutput</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d8e4c160-1569-4b85-b63e-5d2fcfb29a42"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="e8807689-1c54-4ce9-a222-5c9f61e60953">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="a99cbfe7-b5fc-4e89-ae71-a6d2500e4dc1"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="822cc098-07bb-4213-9a79-913fe51f96c7"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="28a2fc5c-6d68-4274-840c-e6e86b5739d6">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d8e4c160-1569-4b85-b63e-5d2fcfb29a42"/>
+    <segmentIndex>3</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="a99cbfe7-b5fc-4e89-ae71-a6d2500e4dc1">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter2/Sample and Hold/ </blockPath>
+    <name>InitialOutput</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="e8807689-1c54-4ce9-a222-5c9f61e60953"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="b42ef9e9-f8e0-413a-9d2b-c86a9704ee66">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="268b3709-0445-4d3a-9fa6-5d050dfdb00c"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="c7d9a023-db45-463a-95fc-2d7be0115d96"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="268b3709-0445-4d3a-9fa6-5d050dfdb00c">
+    <blockPath>sigmadelta_full_DCO_Sampled_differential_integer_true/counter1/Sample and Hold/ </blockPath>
+    <name>InitialOutput</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b42ef9e9-f8e0-413a-9d2b-c86a9704ee66"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+</MF0>

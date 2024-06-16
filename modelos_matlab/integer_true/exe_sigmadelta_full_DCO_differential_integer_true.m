@@ -38,7 +38,7 @@ NbDiff2 = NbC1; %number of bits of feedback loop difference
 
 Nbsd=Nbvco+Nbext % Number of bits of SD quantizer
 Nsd=2^Nbsd;
-Nbdcoext=4; % Number of bits of DCO ALU
+Nbdcoext=3; % Number of bits of DCO ALU
 Nbdco=Nbsd+Nbdcoext % Number of bits DCO counter
 Ndco=2^Nbdco;
 
@@ -47,7 +47,7 @@ nbfirstdiff = NbC1; %number of bits of first difference output
 
 %% Extra parameters
 
-f0=fs*NC1/32
+f0=fs*2*NC1/16
 fvco=f0/NP
 Kvco=f0*1
 
@@ -56,7 +56,7 @@ fvco2 = fvco
 Kvco2 = Kvco/4
 
 
-f2=fs*2^(Nbdcoext)
+f2=fs*2^(3)
 T2=1/f2;
 
 %% Simulate the system
@@ -79,7 +79,10 @@ clf
 semilogx(f,20*log10(abs(eu0)),'r');
 hold on;
 semilogx(f,20*log10(abs(eu1)),'b');
-grid
+grid on
+% Add axis titles
+xlabel('Frequency (Hz)');
+ylabel('Power (dB)');
 
 sig=eu0(bint-1:bint+1);
 eu0(bint-1:bint+1)=[0 0 0];

@@ -30,7 +30,7 @@ Input_signal = 10^(Input_signal_dB/20);
 Nbvco=4 % Number of bits VCO counter
 Nvco=2^Nbvco;
 NP=Nvco;
-Nbext=6; %Number of bits of extra counter
+Nbext=5; %Number of bits of extra counter
 NbC1=Nbvco+Nbext % Number of bits of first counter C1
 NC1=2^NbC1;
 NbDiff1 = NbC1; %number of bits of differential canceling diff output
@@ -47,7 +47,7 @@ nbfirstdiff = NbC1; %number of bits of first difference output
 
 %% Extra parameters
 
-f0=fs*NC1/32
+f0=fs*2*NC1/16
 fvco=f0/NP
 Kvco=f0*1
 
@@ -56,7 +56,7 @@ fvco2 = fvco
 Kvco2 = Kvco/4
 
 
-f2=fs*2^(Nbdcoext)
+f2=fs*2^(3)
 T2=1/f2;
 
 %% Simulate the system
@@ -79,7 +79,10 @@ clf
 semilogx(f,20*log10(abs(eu0)),'r');
 hold on;
 semilogx(f,20*log10(abs(eu1)),'b');
-grid
+grid on
+% Add axis titles
+xlabel('Frequency (Hz)');
+ylabel('Power (dB)');
 
 sig=eu0(bint-1:bint+1);
 eu0(bint-1:bint+1)=[0 0 0];

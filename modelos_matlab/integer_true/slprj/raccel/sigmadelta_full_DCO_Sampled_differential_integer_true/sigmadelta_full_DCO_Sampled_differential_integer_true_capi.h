@@ -1,0 +1,7 @@
+#ifndef RTW_HEADER_sigmadelta_full_DCO_Sampled_differential_integer_true_capi_h_
+#define RTW_HEADER_sigmadelta_full_DCO_Sampled_differential_integer_true_capi_h_
+#include "sigmadelta_full_DCO_Sampled_differential_integer_true.h"
+extern void
+sigmadelta_full_DCO_Sampled_differential_integer_true_InitializeDataMapInfo (
+void ) ;
+#endif

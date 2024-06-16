@@ -42,14 +42,14 @@ T2=1/f2;
 Vfs=1;
 Vdc=Vfs;
 g1=g1_ideal*1;
-Input_signal_dB=-0.5;
+Input_signal_dB=-12.3;
 ;   % Input signal
 lvl = Vfs*10^(Input_signal_dB/20);
-pnoi=10^(-(60)/10)*(Vfs^2/2);
+pnoi=0;%10^(-(60)/10)*(Vfs^2/2);
 
 [fa fb]=butter(4,2*pi*40000,'s');
 %%
-sim('dog_x_bit_true_2023a.slx');
+sim('dog_x_bit_true_2023a1.slx');
 %
 y=y(lsim/2+2:max(length(y)));
 f=(1/Ts)*(1:length(y)/2)/length(y);
@@ -76,6 +76,10 @@ sig=ey1(bint-1:bint+1);
 ey1(bint-1:bint+1)=[0 0 0];
 noi=ey1(3:binbw);
 sndr_ey1=10*log10((sig'*sig)/(noi'*noi))
+% Add axis titles
+xlabel('Frequency (Hz)');
+ylabel('Power (dB)');
+
 
 figure(2)
 clf
