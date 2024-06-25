@@ -615,24 +615,24 @@ bhcircixxg , & rtB . i0ed20d54s . bhcircixxg , & rtB . kbpnhsyifh .
 bhcircixxg , & rtP . Constant1_Value , & rtP . Constant13_Value , & rtP .
 Constant14_Value , & rtP . Constant2_Value , & rtP . Gain_Gain , & rtP .
 Gain3_Gain_hzvizfc2ch , & rtP . Gain9_Gain , & rtP . Saturation_LowerSat , &
-rtP . Saturation1_LowerSat , & rtP . u_Bias , & rtP . u_Phase , & rtP .
-u_Bias_fcp1lx20vd , & rtP . u_Phase_aalontdtu0 , & rtP .
+rtP . Saturation1_LowerSat , & rtP . u_Bias_cxn2cbupoj , & rtP .
+u_Phase_lgrdgjvqpc , & rtP . u_Bias , & rtP . u_Phase , & rtP .
 Delay1_InitialCondition , & rtP . Delay2_InitialCondition_mopckj2nxe , & rtP
 . Delay4_InitialCondition , & rtP . Delay7_InitialCondition , & rtP .
-Delay2_InitialCondition , & rtP . Delay2_InitialCondition_lauqgan35g , & rtP
+Delay2_InitialCondition_ohl1x2au03 , & rtP . Delay2_InitialCondition , & rtP
 . Gain1_Gain , & rtP . Gain2_Gain_nzobe5hggj , & rtP . Gain3_Gain , & rtP .
 Gain4_Gain , & rtP . Relay_OnVal_lcdbtjujpq , & rtP . Relay_OffVal_iuo5h2oaoh
 , & rtP . Relay_YOn_jauj4ocrsp , & rtP . Relay_YOff_ddodkq4t55 , & rtP .
-Gain1_Gain_pfmsb2tnwt , & rtP . Gain2_Gain , & rtP . Gain3_Gain_orrkrx44hb ,
-& rtP . Gain4_Gain_f5rnnj140f , & rtP . Relay_OnVal_ol55c5brbv , & rtP .
-Relay_OffVal_ftfm5ezvr4 , & rtP . Relay_YOn_pnewmcn0hv , & rtP .
-Relay_YOff_g0zkkowcb2 , & rtP . Gain1_Gain_ei4ctr1ce4 , & rtP .
-Gain2_Gain_mxhrsicqv0 , & rtP . Gain3_Gain_erykj2ffdi , & rtP .
-Gain4_Gain_m5dpyjac2r , & rtP . Relay_OnVal_azgq1fxwjz , & rtP .
-Relay_OffVal_m3wov13fvy , & rtP . Relay_YOn_myrz2fo54j , & rtP .
-Relay_YOff_m2vdsz2cep , & rtP . Gain1_Gain_jbm5vg2jfe , & rtP .
-Gain2_Gain_ppymcmeggh , & rtP . Gain3_Gain_c2aoyjuxem , & rtP .
-Gain4_Gain_fte5si5w01 , & rtP . Relay_OnVal_mmmoteegjq , & rtP .
+Gain1_Gain_pfmsb2tnwt , & rtP . Gain2_Gain_pibcjqgl5q , & rtP .
+Gain3_Gain_orrkrx44hb , & rtP . Gain4_Gain_f5rnnj140f , & rtP .
+Relay_OnVal_ol55c5brbv , & rtP . Relay_OffVal_ftfm5ezvr4 , & rtP .
+Relay_YOn_pnewmcn0hv , & rtP . Relay_YOff_g0zkkowcb2 , & rtP .
+Gain1_Gain_ei4ctr1ce4 , & rtP . Gain2_Gain_mxhrsicqv0 , & rtP .
+Gain3_Gain_erykj2ffdi , & rtP . Gain4_Gain_m5dpyjac2r , & rtP .
+Relay_OnVal_azgq1fxwjz , & rtP . Relay_OffVal_m3wov13fvy , & rtP .
+Relay_YOn_myrz2fo54j , & rtP . Relay_YOff_m2vdsz2cep , & rtP .
+Gain1_Gain_jbm5vg2jfe , & rtP . Gain2_Gain , & rtP . Gain3_Gain_c2aoyjuxem ,
+& rtP . Gain4_Gain_fte5si5w01 , & rtP . Relay_OnVal_mmmoteegjq , & rtP .
 Relay_OffVal_af0ailhjv4 , & rtP . Relay_YOn_dx350cfzhz , & rtP .
 Relay_YOff_klaoj23stk , & rtP . Constant1_Value_k4ze1eyqfh , & rtP .
 Constant3_Value , & rtP . Memory_InitialCondition , & rtP .
@@ -654,33 +654,33 @@ Relay_OffVal_lzmtedixmm , & rtP . Relay_YOn_lsb53mcfzj , & rtP .
 Relay_YOff_jrvptib512 , & rtP . Integrator_IC_pda235dj3o , & rtP .
 Integrator_UpperSat_onycsesq00 , & rtP . Integrator_LowerSat_lt0o50nwow , &
 rtP . Relay_OnVal_grhow3snpm , & rtP . Relay_OffVal_in3mllvr4x , & rtP .
-Relay_YOn_g5oxmo5vtx , & rtP . Relay_YOff_n2ya32gh1l , & rtP . Integrator_IC
+Relay_YOn_g5oxmo5vtx , & rtP . Relay_YOff_n2ya32gh1l , & rtP .
+Integrator_IC_nen4ukhzeh , & rtP . Integrator_UpperSat_gcii2rzagn , & rtP .
+Integrator_LowerSat_avy3r3vlzn , & rtP . Relay_OnVal_f0yihkjgvs , & rtP .
+Relay_OffVal_k30yarpddi , & rtP . Relay_YOn_fp2zssybkj , & rtP .
+Relay_YOff_jbcg4gr0li , & rtP . Integrator_IC_gc1nxps5tg , & rtP .
+Integrator_UpperSat_jxdbo0dk32 , & rtP . Integrator_LowerSat_bx3cuhup2x , &
+rtP . Relay_OnVal_lb5krscakn , & rtP . Relay_OffVal_gk3kuiyqyk , & rtP .
+Relay_YOn_bhfsrh1cck , & rtP . Relay_YOff_apk0hrwvzz , & rtP .
+Integrator_IC_nnkei5byn3 , & rtP . Integrator_UpperSat_nikd5nq4qi , & rtP .
+Integrator_LowerSat_ml0gsyvrs4 , & rtP . Relay_OnVal_npnpiqpph3 , & rtP .
+Relay_OffVal_esykk2txpm , & rtP . Relay_YOn_ifa2pl2lcg , & rtP .
+Relay_YOff_fpmi0fcndp , & rtP . Integrator_IC_lr20tuv0eg , & rtP .
+Integrator_UpperSat_fqtyz21jgz , & rtP . Integrator_LowerSat_jssfn1hxzj , &
+rtP . Relay_OnVal_cbjqjxb4tm , & rtP . Relay_OffVal_am0oqh4ks4 , & rtP .
+Relay_YOn_bc42rfdajg , & rtP . Relay_YOff_kj0k21tk4c , & rtP .
+Integrator_IC_i2uai10hwr , & rtP . Integrator_UpperSat_dh0t25pzh2 , & rtP .
+Integrator_LowerSat_neq0i10rth , & rtP . Relay_OnVal_h1i2o5kwfg , & rtP .
+Relay_OffVal_ps0rhgpgvd , & rtP . Relay_YOn_kfriyo5rl4 , & rtP .
+Relay_YOff_f2g3xhsgrz , & rtP . Integrator_IC_hz0cltzclb , & rtP .
+Integrator_UpperSat_gcvzmvowsi , & rtP . Integrator_LowerSat_o2mm033ot2 , &
+rtP . Relay_OnVal_pqgvke2nha , & rtP . Relay_OffVal_k1c5j1def3 , & rtP .
+Relay_YOn_psdpbhlnbk , & rtP . Relay_YOff_j3yuyzhlz1 , & rtP . Integrator_IC
 , & rtP . Integrator_UpperSat , & rtP . Integrator_LowerSat , & rtP .
 Relay_OnVal , & rtP . Relay_OffVal , & rtP . Relay_YOn , & rtP . Relay_YOff ,
-& rtP . Integrator_IC_gc1nxps5tg , & rtP . Integrator_UpperSat_jxdbo0dk32 , &
-rtP . Integrator_LowerSat_bx3cuhup2x , & rtP . Relay_OnVal_lb5krscakn , & rtP
-. Relay_OffVal_gk3kuiyqyk , & rtP . Relay_YOn_bhfsrh1cck , & rtP .
-Relay_YOff_apk0hrwvzz , & rtP . Integrator_IC_nnkei5byn3 , & rtP .
-Integrator_UpperSat_nikd5nq4qi , & rtP . Integrator_LowerSat_ml0gsyvrs4 , &
-rtP . Relay_OnVal_npnpiqpph3 , & rtP . Relay_OffVal_esykk2txpm , & rtP .
-Relay_YOn_ifa2pl2lcg , & rtP . Relay_YOff_fpmi0fcndp , & rtP .
-Integrator_IC_lr20tuv0eg , & rtP . Integrator_UpperSat_fqtyz21jgz , & rtP .
-Integrator_LowerSat_jssfn1hxzj , & rtP . Relay_OnVal_cbjqjxb4tm , & rtP .
-Relay_OffVal_am0oqh4ks4 , & rtP . Relay_YOn_bc42rfdajg , & rtP .
-Relay_YOff_kj0k21tk4c , & rtP . Integrator_IC_i2uai10hwr , & rtP .
-Integrator_UpperSat_dh0t25pzh2 , & rtP . Integrator_LowerSat_neq0i10rth , &
-rtP . Relay_OnVal_h1i2o5kwfg , & rtP . Relay_OffVal_ps0rhgpgvd , & rtP .
-Relay_YOn_kfriyo5rl4 , & rtP . Relay_YOff_f2g3xhsgrz , & rtP .
-Integrator_IC_hz0cltzclb , & rtP . Integrator_UpperSat_gcvzmvowsi , & rtP .
-Integrator_LowerSat_o2mm033ot2 , & rtP . Relay_OnVal_pqgvke2nha , & rtP .
-Relay_OffVal_k1c5j1def3 , & rtP . Relay_YOn_psdpbhlnbk , & rtP .
-Relay_YOff_j3yuyzhlz1 , & rtP . Integrator_IC_etcp0a3ra3 , & rtP .
-Integrator_UpperSat_gl2ovnasb3 , & rtP . Integrator_LowerSat_pe23vcqzjt , &
-rtP . Relay_OnVal_esem52uuki , & rtP . Relay_OffVal_ohgverckfm , & rtP .
-Relay_YOn_nymhqtqnhc , & rtP . Relay_YOff_eihi5124wd , & rtP .
-Integrator_IC_g2lwwx2esc , & rtP . Integrator_UpperSat_ipwxjx3zwz , & rtP .
-Integrator_LowerSat_isd3y4kico , & rtP . Relay_OnVal_fb2ckrosa1 , & rtP .
-Relay_OffVal_mdcttm5av2 , & rtP . Relay_YOn_pqm5zswnez , & rtP .
+& rtP . Integrator_IC_g2lwwx2esc , & rtP . Integrator_UpperSat_ipwxjx3zwz , &
+rtP . Integrator_LowerSat_isd3y4kico , & rtP . Relay_OnVal_fb2ckrosa1 , & rtP
+. Relay_OffVal_mdcttm5av2 , & rtP . Relay_YOn_pqm5zswnez , & rtP .
 Relay_YOff_gmithmyikx , & rtP . kidn0dkyh4l . _Y0 , & rtP . golzcmoqxl . _Y0
 , & rtP . i0ed20d54s . _Y0 , & rtP . kbpnhsyifh . _Y0 , & rtP . Input_signal
 , & rtP . Kvco , & rtP . f0 , & rtP . f02 , & rtP . ft , } ; static int32_T *
@@ -721,7 +721,7 @@ rtwCAPI_ModelMappingStaticInfo mmiStatic = { { rtBlockSignals , 89 ,
 rtRootInputs , 0 , rtRootOutputs , 0 } , { rtBlockParameters , 151 ,
 rtModelParameters , 5 } , { ( NULL ) , 0 } , { rtDataTypeMap , rtDimensionMap
 , rtFixPtMap , rtElementMap , rtSampleTimeMap , rtDimensionArray } , "float"
-, { 1075026732U , 936178630U , 4199121753U , 597266722U } , ( NULL ) , 0 , (
+, { 181193560U , 1803357530U , 2593763468U , 1752874840U } , ( NULL ) , 0 , (
 boolean_T ) 0 , rt_LoggedStateIdxList } ; const
 rtwCAPI_ModelMappingStaticInfo *
 sigmadelta_full_DCO_Sampled_differential_integer_true_GetCAPIStaticMap ( void
